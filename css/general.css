@@ -30,16 +30,22 @@ header {
     background-color: black;
 }
 
+article {
+    margin:-2rem 0 0 0;
+    padding: 0 0 0 0;
+}
+
 h1 {
-    margin: 2rem 0 2rem 0;
-    padding: 0 0 0 3rem;
+    margin: 1rem 0 2rem 0;
+    padding: 1rem 0 4% 0;
+    text-align: center;
     font-size: 5.5rem;
     color: white;
     font-family: Helvetica, Arial, sans-serif;
-    
+    font-weight: 200;
+    background-color: black;
 }
     
-        
 .logo {
    width: 20rem;
     height: auto;
@@ -88,8 +94,8 @@ figure {
 
 .bucket1 {
     overflow: hidden;
-    color: black;
-    margin: -2 0 0 0;
+    color: #660000;
+    margin: -2rem 0 0 0;
 }
 
 .bucket1 div {
@@ -103,7 +109,7 @@ figure {
 .bucket1 p {
     float: right;
     width: 50%;
-    margin: 0;
+    margin: ;
     padding: 1rem 0 0 ;
     font-size: 4rem;
 }
@@ -115,7 +121,7 @@ figure {
 
 .bucket2 {
     overflow:  hidden;
-    color: black;
+    color: #660000;
     background-color: white;
     margin: -2rem 0 0 0;
     padding: 2rem 0 0 0;
@@ -140,4 +146,34 @@ figure {
 .bucket2 figcaption {
     margin: 0 0 0 4.5rem;
 } /* Look into absolute positioning */
+
+.nav-bottom {
+    clear:both; /* forces content to be placed after a float */
+}
+
+.nav-bottom ul {
+    margin:0 0 1rem 0;
+    padding:0;
+    background-color: black;
+    text-align: center;
+}
+
+.nav-bottom li {
+    margin:0;
+    padding:0;
+    display: inline;
+}
+
+.nav-bottom a,
+.nav-bottom a:link,
+.nav-bottom a:visited {
+    display: inline-block;
+    margin: 2.4rem 0 0 0;
+    padding: 1rem 7%;
+    color: white;
+    text-decoration: none;
+}
+
+
+    
 
