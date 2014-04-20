@@ -44,7 +44,7 @@ h1 {
     margin: 0 0 1rem 0;
     padding: 1rem 0 2.5rem 0;
     text-align: center;
-    font-size: 6rem;
+    font-size: 2rem;
     font-weight: 200;
     color: white;
     font-family: Helvetica, Arial, sans-serif;
@@ -66,7 +66,7 @@ body {
 }
 
 .nav-top ul {
-    margin:0 0 1rem 0;
+    margin:0 0 2rem 0;
     padding:0;
     background-color: black;
     text-align: center;
@@ -85,14 +85,14 @@ body {
     margin: 0;
     padding: 1.5rem 7%;
     color: white;
-    font-size: 6rem;
+    font-size: 2rem;
     text-decoration: none;
 }
 
 figure {
     margin: 0 0 1.5rem;
     padding: 0;
-    font-size: 6rem;
+    font-size: 2rem;
     background-color: white
 }
 
@@ -115,7 +115,7 @@ figure {
     width: 50%;
     margin: ;
     padding: 1rem 0 0 ;
-    font-size: 4rem;
+    font-size: 1rem;
 }
 
 .bucket1 figcaption {
@@ -144,7 +144,7 @@ figure {
     width: 50%;
     margin: 0;
     padding: 1rem 0 0;
-    font-size: 4rem;
+    font-size: 1rem;
 }
 
 .bucket2 figcaption {
@@ -156,7 +156,7 @@ figure {
 }
 
 .nav-bottom ul {
-    margin:0 0 1rem 0;
+    margin:2rem 0 1rem 0;
     padding:0;
     background-color: black;
     text-align: center;
@@ -175,14 +175,13 @@ figure {
     margin: 2.5rem 0 0 0;
     padding: 1rem 5%;
     color: white;
-    text-decoration: none;
 }
 
 h2 {
    margin: 1.5rem 0 1rem 0;
     padding: .5rem 0 4% 0;
     text-align: center;
-    font-size: 5.5rem;
+    font-size: 1rem;
     color: white;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 200;
