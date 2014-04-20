@@ -49,7 +49,7 @@ h1 {
 .logo {
    width: 20rem;
     height: auto;
-    margin: 4.5rem auto;
+    margin: 2.5rem auto 1rem auto;
     padding: .5rem .5rem;
 }
 
@@ -115,7 +115,7 @@ figure {
 }
 
 .bucket1 figcaption {
-    margin: 0 0 0 4.5rem
+    text-align: center;
 } /* Look into absolute positioning */
 
 
@@ -144,7 +144,7 @@ figure {
 }
 
 .bucket2 figcaption {
-    margin: 0 0 0 4.5rem;
+    text-align: center;
 } /* Look into absolute positioning */
 
 .nav-bottom {
@@ -168,12 +168,19 @@ figure {
 .nav-bottom a:link,
 .nav-bottom a:visited {
     display: inline-block;
-    margin: 2.4rem 0 0 0;
-    padding: 1rem 7%;
+    margin: 2.5rem 0 0 0;
+    padding: 1rem 5%;
     color: white;
     text-decoration: none;
 }
 
-
-    
-
+h2 {
+   margin: 1.5rem 0 1rem 0;
+    padding: .5rem 0 4% 0;
+    text-align: center;
+    font-size: 5.5rem;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    background-color: black;
+}
