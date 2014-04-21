@@ -43,13 +43,14 @@ article {
 
 .billboard {
     background-image: url(../images/eyes.jpg);
-    background-size: 100%;
+    background-size: 125%;
     overflow: hidden;
     background-position: center center;
+    background-repeat: no-repeat;
 }
 
 h1 {
-    margin: 3rem 0;
+    margin: 4rem 0;
     padding: 0;
     text-align: center;
     font-size: 1.5rem;
