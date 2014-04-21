@@ -33,21 +33,28 @@ body {
 
 header {
     background-color: black;
+    overflow: hidden;
 }
 
 article {
-    margin:-2rem 0 0 0;
-    padding: 0 0 0 0;
+    margin: 0;
+    padding: 1.5rem 5%;
+}
+
+.billboard {
+    background-image: url(../images/eyes.jpg);
+    background-size: 100%;
+    overflow: hidden;
 }
 
 h1 {
-    margin: 0 0 1rem 0;
-    padding: 1rem 0 2rem 0;
+    margin: 3rem 0;
+    padding: 0;
     text-align: center;
-    font-size: 1.25rem;
-    font-weight: 200;
-    color: white;
-    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: regular;
+    color: pink;
+    font-family: 'Open Sans', Arial, sans-serif;
 }
     
 .logo {
@@ -55,10 +62,6 @@ h1 {
     height: auto;
     margin: auto;
     padding: .5rem .5rem;
-}
-
-body {
-    background-color: black;
 }
 
 .nav-top {
@@ -92,7 +95,6 @@ body {
 figure {
     margin: 0 0 1.5rem;
     padding: 0;
-    text-align: center
     font-size: 1.5rem;
     background-color: white
 }
@@ -100,7 +102,8 @@ figure {
 .bucket1 {
     overflow: hidden;
     color: #660000;
-    margin: -2rem 0 0 0;
+    margin: 0;
+    padding: 0;
 }
 
 .bucket1 div {
@@ -115,122 +118,14 @@ figure {
     float: right;
     width: 50%;
     margin: ;
-    padding: 1rem 0 0 ;
+    padding: 0 ;
     font-size: 1rem;
 }
 
-.bucket2 {
-    overflow:  hidden;
-    color: #660000;
-    background-color: white;
-    margin: -2rem 0 0 0;
-    padding: 2rem 0 0 0;
-}
-
-.bucket2 div {
-    float: left;
-    width: 45%; 
-    margin: 0 5% 0 0; 
-    padding: 1rem;
-    background-color: white;
-}
-
-.bucket2 p {
-    float: right;
-    width: 50%;
-    margin: 0;
-    padding: 1rem 0 0;
-    font-size: 1rem;
-}
-
-.bucket3 {
+footer {
+    background-color: black;
     overflow: hidden;
-    color: #660000;
-    margin: -2rem 0 0 0;
 }
-
-.bucket3 div {
-    float: left;
-    width: 45%; 
-    margin: 0 5% 0 0; 
-    padding: 1rem;
-    background-color: white;
-}
-
-.bucket3 p {
-    float: right;
-    width: 50%;
-    margin: ;
-    padding: 1rem 0 0 ;
-    font-size: 1rem;
-}
-
-.bucket4 {
-    overflow: hidden;
-    color: #660000;
-    margin: -2rem 0 0 0;
-}
-
-.bucket4 div {
-    float: left;
-    width: 45%; 
-    margin: 0 5% 0 0; 
-    padding: 1rem;
-    background-color: white;
-}
-
-.bucket4 p {
-    float: right;
-    width: 50%;
-    margin: ;
-    padding: 1rem 0 0 ;
-    font-size: 1rem;
-}
-
-.bucket5 {
-    overflow: hidden;
-    color: #660000;
-    margin: -2rem 0 0 0;
-}
-
-.bucket5 div {
-    float: left;
-    width: 45%; 
-    margin: 0 5% 0 0; 
-    padding: 1rem;
-    background-color: white;
-}
-
-.bucket5 p {
-    float: right;
-    width: 50%;
-    margin: ;
-    padding: 1rem 0 1rem 0 ;
-    font-size: 1rem;
-}
-
-.bucket6 {
-    overflow: hidden;
-    color: #660000;
-    margin: -2rem 0 0 0;
-}
-
-.bucket6 div {
-    float: left;
-    width: 45%; 
-    margin: 0 5% 0 0; 
-    padding: 1rem;
-    background-color: white;
-}
-
-.bucket6 p {
-    float: right;
-    width: 50%;
-    margin: ;
-    padding: 1rem 0 0 ;
-    font-size: 1rem;
-}
-
 
 .nav-bottom {
     clear:both; /* forces content to be placed after a float */
@@ -260,11 +155,11 @@ figure {
 
 h2 {
    margin: 1.5rem 0 1rem 0;
-    padding: .5rem 0 4% 0;
+    padding: 0 4% 0;
     text-align: center;
     font-size: 1rem;
     color: white;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     font-weight: 200;
     background-color: black;
 }
