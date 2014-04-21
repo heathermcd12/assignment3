@@ -42,18 +42,18 @@ article {
 
 h1 {
     margin: 0 0 1rem 0;
-    padding: 1rem 0 2.5rem 0;
+    padding: 1rem 0 2rem 0;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.25rem;
     font-weight: 200;
     color: white;
     font-family: Helvetica, Arial, sans-serif;
 }
     
 .logo {
-   width: 10rem;
+   width: 12rem;
     height: auto;
-    margin: 2.5rem auto 1rem auto;
+    margin: auto;
     padding: .5rem .5rem;
 }
 
@@ -236,7 +236,7 @@ figure {
 }
 
 .nav-bottom ul {
-    margin:2rem 0 1rem 0;
+    margin: 1rem 0 1rem 0;
     padding:0;
     background-color: black;
     text-align: center;
@@ -252,7 +252,7 @@ figure {
 .nav-bottom a:link,
 .nav-bottom a:visited {
     display: inline-block;
-    margin: 2.5rem 0 0 0;
+    margin: 1rem 0 0 0;
     padding: 1rem 5%;
     
 }
