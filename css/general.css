@@ -55,6 +55,7 @@ h1 {
     font-weight: regular;
     color: white;
     font-family: 'Open Sans', Arial, sans-serif;
+    overflow:hidden;
 }
     
 .logo {
