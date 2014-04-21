@@ -118,11 +118,6 @@ figure {
     font-size: 1rem;
 }
 
-.bucket1 figcaption {
-    text-align: center;
-} /* Look into absolute positioning */
-
-
 .bucket2 {
     overflow:  hidden;
     color: #660000;
@@ -147,9 +142,94 @@ figure {
     font-size: 1rem;
 }
 
-.bucket2 figcaption {
-    text-align: center;
-} /* Look into absolute positioning */
+.bucket3 {
+    overflow: hidden;
+    color: #660000;
+    margin: -2rem 0 0 0;
+}
+
+.bucket3 div {
+    float: left;
+    width: 45%; 
+    margin: 0 5% 0 0; 
+    padding: 1rem;
+    background-color: white;
+}
+
+.bucket3 p {
+    float: right;
+    width: 50%;
+    margin: ;
+    padding: 1rem 0 0 ;
+    font-size: 1rem;
+}
+
+.bucket4 {
+    overflow: hidden;
+    color: #660000;
+    margin: -2rem 0 0 0;
+}
+
+.bucket4 div {
+    float: left;
+    width: 45%; 
+    margin: 0 5% 0 0; 
+    padding: 1rem;
+    background-color: white;
+}
+
+.bucket4 p {
+    float: right;
+    width: 50%;
+    margin: ;
+    padding: 1rem 0 0 ;
+    font-size: 1rem;
+}
+
+.bucket5 {
+    overflow: hidden;
+    color: #660000;
+    margin: -2rem 0 0 0;
+}
+
+.bucket5 div {
+    float: left;
+    width: 45%; 
+    margin: 0 5% 0 0; 
+    padding: 1rem;
+    background-color: white;
+}
+
+.bucket5 p {
+    float: right;
+    width: 50%;
+    margin: ;
+    padding: 1rem 0 1rem 0 ;
+    font-size: 1rem;
+}
+
+.bucket6 {
+    overflow: hidden;
+    color: #660000;
+    margin: -2rem 0 0 0;
+}
+
+.bucket6 div {
+    float: left;
+    width: 45%; 
+    margin: 0 5% 0 0; 
+    padding: 1rem;
+    background-color: white;
+}
+
+.bucket6 p {
+    float: right;
+    width: 50%;
+    margin: ;
+    padding: 1rem 0 0 ;
+    font-size: 1rem;
+}
+
 
 .nav-bottom {
     clear:both; /* forces content to be placed after a float */
